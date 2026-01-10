@@ -1,9 +1,11 @@
 [project]
 name = "camel-exam-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "一个基于Camel-AI的考研复试出题Agent，能够帮助用户高效准备考研复试。"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "camel-ai[tools]>=0.2.82",
+    "camel-ai[data-tools,document-tools,rag,storage]>=0.2.82",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
 ]

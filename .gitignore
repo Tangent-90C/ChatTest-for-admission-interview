@@ -6,7 +6,11 @@ dist/
 wheels/
 *.egg-info
 .idea
+.vscode
+data_process/datas/*
+!data_process/datas/.gitkeep
 
 # Virtual environments
 .venv
 .env
+

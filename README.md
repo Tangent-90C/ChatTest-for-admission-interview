@@ -111,6 +111,10 @@ uv run pytest
 
 ```
 .
+├── data_process/       # 考试试卷数据收集与处理模块
+│   ├── data_sources.xlsx   # 数据源配置文件
+│   ├── download_repos.py   # 数据自动下载脚本
+│   └── datas/              # 原始试卷数据存放目录
 ├── main.py             # 主程序入口
 ├── pyproject.toml      # 项目配置和依赖定义
 ├── README.md           # 项目说明文档
